@@ -192,7 +192,7 @@ public class LNodeMenu extends JFrame implements ActionListener, ItemListener, K
                 e.consume();
             }
         } else if (e.getSource().equals(txtValue)) {
-            if (!(Character.isLetterOrDigit(e.getKeyChar()) || e.getKeyChar() == ' ')) {
+            if (!(Character.isDigit(e.getKeyChar()) || e.getKeyChar() == ' ')) {
                 e.consume();
             }
         }
